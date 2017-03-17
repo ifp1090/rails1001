@@ -17,4 +17,5 @@ namespace :account do
 end
 
   root 'groups#index'
+  resources :posts
 end
